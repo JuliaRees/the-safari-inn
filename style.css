@@ -25,7 +25,7 @@
 .padded-2       { padding: 2rem; }
 
 .padded-t       { padding-top: 5%; }
-.padded-b       { padding-bottom: 5%; }
+.padded-b       { padding-bottom: 4%; }
 .padded-l       { padding-left: 5%; }
 .padded-r       { padding-right: 5%; }
 
@@ -46,6 +46,8 @@
 .padded-b-0     { padding-bottom: 0; }
 .padded-l-0     { padding-left: 0; }
 .padded-r-0     { padding-right: 0; }
+
+.padded-0 { padding: 0%; }
 
 
 /* Margin Utility Classes---------------------------*/
@@ -114,6 +116,8 @@
 .portrait   { padding-bottom: 125%; }
 .square     { padding-bottom: 100%; }
 
+.bg-50 { min-height: 50vh; }
+
 
 /* Typography Styles --------------------------------------------------*/
 
@@ -146,7 +150,7 @@ p {
     font-weight: 300;
     line-height: 1.5;
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 p:last-child {
@@ -240,7 +244,10 @@ footer a {
     background-position: center;
 }
 
-.bg-activity { background-image: url('/images/the-safari-inn-3.png'); }
+.bg-activity { 
+    background-image: url('/images/the-safari-inn-3.png');
+    background-position: 30% 50%;
+ }
 
 .bg-animals-run { background-image: url('/images/the-safari-inn-1.png'); }
 
@@ -254,6 +261,7 @@ footer a {
         background-image: url('/images/the-safari-inn-9.png');
         border-top-left-radius: 100%;
         border-top-right-radius: 100%;
+        min-height: 50vh;
       }
 
 .bg-bed2 {
@@ -261,6 +269,7 @@ footer a {
         border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         background-position: bottom;
+        min-height: 50vh;
       }
 
 .bg-bed3 {
@@ -268,6 +277,7 @@ footer a {
         border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         background-position: 45% 50%;
+        min-height: 50vh;
       }
 
 
@@ -306,6 +316,12 @@ textarea:focus {
     color: #BC6C25;
     line-height: 1;
 }
+
+/* Reach Out Block ---------------------------------------------*/
+.reach-padding {
+    padding-top: 0%;
+}
+
 
 
 /* Fot Other Blocks / Organize later / Delete --------------------------------------*/
