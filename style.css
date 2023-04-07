@@ -173,6 +173,27 @@ a body:hover {
 
 .bg-lion { background-image: url('/images/the-safari-inn-8.png'); }
 
+.bg-bed1 {
+        background-image: url('/images/the-safari-inn-9.png');
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+      }
+
+.bg-bed2 {
+        background-image: url('/images/the-safari-inn-10.png');
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        background-position: bottom;
+      }
+
+.bg-bed3 {
+        background-image: url('/images/the-safari-inn-11.png');
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        background-position: 45% 50%;
+      }
+      
+
 
 .logo {
     font-family: 'Six Caps', sans-serif;
