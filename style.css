@@ -20,15 +20,26 @@ body {
 .padded-sm { padding: 1rem; }
 .padded-lg { padding: 10%; }
 
+
+.test {
+    align-self: center;
+}
+
 .bg-dark {
-    background-color: #283618;
+    background-color: #606C38;
     color: #FEFAE0;
 }
 
 .bg-light {
+    background-color: #A0B169;
+    color: #FEFAE0;
+}
+
+.bg-light-green {
     background-color: #FEFAE0;
     color: #283618;
 }
+
 
 .tall-50 { min-height: 50vh; }
 .tall-60 { min-height: 60vh; }
@@ -38,29 +49,56 @@ body {
 .tall-100 { min-height: 100vh; }
 
 /* Typography Styles */
-h1, h2, h3 {
+h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    text-transform: uppercase;
 }
 
 h1 {
     font-size: 3rem;
+    line-height: 1.1;
+    padding: 3%;
 }
 
 
+
 h2 {
-    font-size: 2.5rem;
-    line-height: 1.1;
-    margin: bottom-1rem;
+        font-size: 1.7rem;
+        line-height: 1.1;
+        text-transform: uppercase;
+        padding-bottom: 1%;
 }
 
 h3 {
     line-height: 1;
 }
 
+h4 {
+    font-size: 1rem;
+    opacity: 0.5;
+    text-transform: uppercase;
+    padding-top: 1%;
+    padding-bottom: none;
+    margin-bottom: 0;
+}
+
+.fourseg-buttons {
+    text-transform: uppercase;
+    padding: 2% 5%;
+    border: 1px solid #A0B169;
+}
+
+.fourseg-h3 {
+    text-transform: uppercase;
+}
+
 p {
     font-weight: 300;
     font-height: 1.5;
-    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
 }
 
 p:last-child {
@@ -72,9 +110,10 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a body:hover {
     color: #DDA15E;
 }
+
 
 .featured-text { color: #A0B169; }
 .light-text { color: #FEFAE0;}
@@ -101,6 +140,16 @@ a:hover {
 .text-center { text-align: center; }
 .text-right { text-align: right; }
 
+.uppercase { text-transform: uppercase;}
+
+.paddingbanner {
+    padding-top: 4%;
+}
+
+.paddingicon {
+    padding-top: 4%;
+}
+
 /* Header Styles */
 .opening-banner {
     background-image: url('/images/the-safari-inn-4.png');
@@ -109,19 +158,30 @@ a:hover {
 }
 
 /* Background Images */
-.bg-bed { background-image: url('/images/the-safari-inn-2.png'); }
+.bg-bed { 
+    background-image: url('/images/the-safari-inn-2.png'); 
+    background-position: center;
+}
 
 .bg-activity { background-image: url('/images/the-safari-inn-3.png'); }
 
 .bg-animals-run { background-image: url('/images/the-safari-inn-1.png'); }
 
 
-
-
-
-
-
 .logo {
     font-family: 'Six Caps', sans-serif;
+    font-size: 5rem;
+    padding: 3%;
 }
 
+a:hover {
+    color: #DDA15E;
+}
+     
+/* Icon Grid */
+.fas {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
