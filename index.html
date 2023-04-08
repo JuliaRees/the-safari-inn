@@ -2,6 +2,10 @@
 <html> 
 
     <head>
+        <!-----Viewport Meta For Responsiveness----------------->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
         <title> The Safari Inn </title>
 
         <!-----This is my fontawesome icons-->
@@ -34,21 +38,27 @@
 
         <!------------------------Header Section----------------->
         <header class="grid-spaceAround bg-light-green">
-            <nav class="col-3-middle text-right">
+            <nav class="hide-md col-3-middle text-right">
                 <a href="/rooms.html"> Rooms </a>
             </nav>
-            <div class="col-4-middle text-center">
+            <div class="col-4_md-12-middle text-center">
                     <h2 class="logo"> The Safari Inn </h2>
             </div>
-            <nav class="col-3-middle text-left">
+            <nav class="hide-md col-3-middle text-left">
                 <a href="/activities.html"> Activities </a>
+            </nav>
+            <nav class="show-md col-6-middle text-right">
+                <a href="/activities.html"> Activities </a>
+            </nav>
+            <nav class="show-md col-6-middle text-left">
+                <a href="/rooms.html"> Rooms </a>
             </nav>
         </header>
 
         <!------------------------ Opening Banner----------------->
-        <section class="grid padded opening-banner tall-90">
+        <section class="grid padded opening-banner tall-90 md-tall-60">
             <div class="col-1"></div>
-            <div class="col-10-middle text-center bg-light padding-no">
+            <div class="col-10-middle text-center bg-light padding-no opening">
                 <h4 class="paddingbanner"> Dreams really do come true </h4>
                 <h1 class="uppercase padded-b"> The perfect <br> safari boutique resort </h1>
             </div>
@@ -70,20 +80,20 @@
 
         <!------------------------4-Box-Segment ----------------->
         <section class="grid bg-dark">
-            <div class="bg-image bg-bed col-6">
+            <div class="bg-image bg-bed col-6_xs-12">
                 <!----background image---->
             </div>
-            <div class="padded col-6-middle">
+            <div class="padded col-6_xs-12-middle">
                 <h3 class="fourseg-h3"> Room Categories </h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ad expedita sequi odio culpa minima dolores obcaecati. </p>
                 <a href="/rooms.html" class="fourseg-buttons"> Rooms </a>
             </div>
-            <div class="padded col-6-middle">
+            <div class="padded col-6_xs-12-middle">
                 <h3 class="fourseg-h3"> Activities </h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ad expedita sequi odio culpa minima dolores obcaecati.  </p>
                 <a href="/activities.html" class="fourseg-buttons"> Activities </a>
             </div>
-            <div class="bg-image bg-activity col-6">
+            <div class="bg-image bg-activity col-6_xs-12">
                 <!----background image---->
             </div>
         </section>
@@ -93,19 +103,19 @@
             <div class="col-12 text-center padded-sm">
                 <h3 class="paddingicon"> Reach out to us and we'll help you make the most of your stay</h3>
             </div>
-            <div class="col-4 padded-sm">
+            <div class="col-4_sm-6_xs-12 padded-sm">
                 <i class="fas fa-solid fa-question"></i>
                 <h3 class="text-center"> For General Inquiries </h3>
                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex sint fuga est ratione dolore ipsum, deserunt error exercitationem nam repellendus reiciendis dolores at impedit, consequuntur alias optio! Quibusdam, perferendis?</p>
                 <a href="#" class="fourseg-buttons"> General Inquiries </a>
             </div>
-            <div class="col-4 padded-sm">
+            <div class="col-4_sm-6_xs-12 padded-sm">
                 <i class="fas fa-regular fa-bed"></i>
                 <h3 class="text-center"> For Room Inquiries </h3>
                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex sint fuga est ratione dolore ipsum, deserunt error exercitationem nam repellendus reiciendis dolores at impedit, consequuntur alias optio! Quibusdam, perferendis?</p>
                 <a href="#" class="fourseg-buttons"> Room Inquiries </a>
             </div>
-            <div class="col-4 padded-sm">
+            <div class="col-4_sm-6_xs-12 padded-sm">
                 <i class="fas fa-light fa-hippo"></i>
                 <h3 class="text-center"> For Activity Inquiries </h3>
                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex sint fuga est ratione dolore ipsum, deserunt error exercitationem nam repellendus reiciendis dolores at impedit, consequuntur alias optio! Quibusdam, perferendis?</p>

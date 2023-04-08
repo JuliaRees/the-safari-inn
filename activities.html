@@ -2,6 +2,10 @@
 <html> 
 
     <head>
+        
+        <!-----Viewport Meta For Responsiveness----------------->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title> Activities At The Safari Inn </title>
 
         <!-----This is my fontawesome icons-->
@@ -34,16 +38,22 @@
 
          <!------------------------Header Section----------------->
          <header class="grid-spaceAround bg-light-green">
-            <nav class="col-3-middle text-right">
+            <nav class="hide-md col-3-middle text-right">
                 <a href="/rooms.html"> Rooms </a>
             </nav>
-            <div class="col-4-middle text-center">
+            <div class="col-4_md-12-middle text-center">
                 <a href="/index.html">   
                 <h2 class="logo"> The Safari Inn </h2>
                 </a> 
             </div>
-            <nav class="col-3-middle text-left">
+            <nav class="hide-md col-3-middle text-left">
                 <a href="/activities.html"> Activities </a>
+            </nav>
+            <nav class="show-md col-6-middle text-right">
+                <a href="/activities.html"> Activities </a>
+            </nav>
+            <nav class="show-md col-6-middle text-left">
+                <a href="/rooms.html"> Rooms </a>
             </nav>
         </header>
 
