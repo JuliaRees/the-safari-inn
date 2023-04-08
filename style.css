@@ -411,6 +411,9 @@ a:hover {
 
   .opening h1 { font-size: 2rem; }
   .opening h4 { font-size: 1rem; }
+
+  .book h2 { font-size: 1.9rem; }
+  .footer h2 { font-size: 1.9rem; }
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
